@@ -53,7 +53,6 @@
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
         <xyz>0 0 1</xyz>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='shoulder_link'>
@@ -107,7 +106,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='upper_arm_link'>
@@ -161,7 +159,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='forearm_link'>
@@ -215,7 +212,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='wrist_1_link'>
@@ -269,7 +265,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='wrist_2_link'>
@@ -323,7 +318,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
     <link name='wrist_3_link'>
@@ -377,7 +371,6 @@
         <dynamics>
           <damping>10</damping>
         </dynamics>
-        <use_parent_model_frame>true</use_parent_model_frame>
       </axis>
     </joint>
 <link name='ee_link'>
