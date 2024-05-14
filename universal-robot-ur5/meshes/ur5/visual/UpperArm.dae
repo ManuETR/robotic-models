@@ -9,7 +9,7 @@
 		 <created>2012-03-22T01:29:07.204Z</created>
 		 <modified>2012-03-22T01:29:07.204Z</modified>
 		<unit	meter="1"	name="meter"/>
-		<up_axis>Y_UP</up_axis>
+		<up_axis>Z_UP</up_axis>
 	</asset>
 	 <library_materials>
 			<material	id="Material"	name="Material">
