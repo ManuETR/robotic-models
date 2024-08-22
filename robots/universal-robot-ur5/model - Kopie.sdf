@@ -40,7 +40,7 @@
     </link>
     <joint name='arm_world_joint' type='revolute'>
       <child>base_link</child>
-      <parent></parent>
+      <parent>world</parent>
       <axis>
         <limit>
           <lower>0</lower>

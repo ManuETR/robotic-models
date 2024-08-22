@@ -1,3 +1,7 @@
 ws_moveit/build/
 ws_moveit/log/
 ws_moveit/install/
+
+ros2_ws/build/
+ros2_ws/log/
+ros2_ws/install/

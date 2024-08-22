@@ -1,0 +1,5 @@
+<launch>
+  <param from="$(find ue5_demo)/ur5_whole_body_controller.yaml" />
+
+
+</launch>
