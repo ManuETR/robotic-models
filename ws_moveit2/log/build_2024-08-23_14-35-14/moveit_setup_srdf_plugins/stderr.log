@@ -1,0 +1,30 @@
+/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp:0: Note: No relevant classes found. No output generated.
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:302: CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:148: CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:204: CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:288: CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:162: CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:246: CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:176: CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:190: CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:316: CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:260: CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:274: CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:218: CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/moveit_setup_srdf_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

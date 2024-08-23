@@ -1,0 +1,63 @@
+[0.246s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support
+[0.359s] -- The C compiler identification is GNU 11.4.0
+[0.417s] -- The CXX compiler identification is GNU 11.4.0
+[0.423s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.510s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.602s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.931s] -- Configuring done
+[0.936s] -- Generating done
+[0.937s] -- Build files have been written to: /home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support
+[0.945s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support
+[0.945s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support -- -j16 -l16
+[0.984s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support -- -j16 -l16
+[1.016s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support
+[1.029s] -- Install configuration: "Release"
+[1.030s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.031s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.031s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.031s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.032s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.032s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.032s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.033s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.033s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.033s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.034s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.034s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.035s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.035s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.035s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.036s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.036s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.036s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.036s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.036s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.037s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.037s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.040s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.040s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.040s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.040s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.041s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.044s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.046s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.047s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.047s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.047s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.047s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.085s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manuel/robotic-models/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_resources_prbt_support

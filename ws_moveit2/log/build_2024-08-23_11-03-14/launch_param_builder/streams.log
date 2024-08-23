@@ -1,0 +1,50 @@
+[0.896s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/prefix_override:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build install --record /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.167s] running egg_info
+[1.167s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[1.167s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.167s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.168s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.168s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.168s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.169s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.172s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.172s] adding license file 'LICENSE'
+[1.172s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.172s] running build
+[1.172s] running build_py
+[1.172s] creating /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build
+[1.172s] creating /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib
+[1.172s] creating /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.173s] copying launch_param_builder/__init__.py -> /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.173s] copying launch_param_builder/launch_param_builder.py -> /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.173s] copying launch_param_builder/utils.py -> /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[1.173s] running install
+[1.173s] running install_lib
+[1.173s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.174s] copying /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.174s] copying /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.174s] copying /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.174s] byte-compiling /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[1.174s] byte-compiling /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[1.175s] byte-compiling /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[1.175s] running install_data
+[1.175s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/ament_index
+[1.176s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index
+[1.176s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.176s] copying resource/launch_param_builder -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.177s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.177s] copying example/launch_param_builder_example.launch.py -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[1.177s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.177s] copying test/data/parameter_file -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.177s] copying test/data/parameter.xacro -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.177s] copying test/data/parameters.yaml -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.177s] copying test/data/param_file_to_inject.yaml -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.178s] copying test/data/parameters_injection.yaml -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[1.178s] copying package.xml -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/share/launch_param_builder
+[1.178s] creating /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.178s] copying example/example_node.py -> /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[1.178s] running install_egg_info
+[1.179s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[1.180s] running install_scripts
+[1.199s] writing list of installed files to '/home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/install.log'
+[1.228s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/prefix_override:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/build install --record /home/manuel/robotic-models/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data

@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/servo_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/servo_calcs_unit_tests.dir/build.make:76: CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:480: CMakeFiles/servo_calcs_unit_tests.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

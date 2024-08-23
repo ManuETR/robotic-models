@@ -1,0 +1,29 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:256: CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:298: CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:200: CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:102: CMakeFiles/moveit_setup_controllers.dir/src/control_xacro_config.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:228: CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:144: CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:116: CMakeFiles/moveit_setup_controllers.dir/src/controller_edit_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:158: CMakeFiles/moveit_setup_controllers.dir/src/controllers_config.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:186: CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_config.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:214: CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_config.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:242: CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:270: CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_controller_edit_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:284: CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_controllers_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:130: CMakeFiles/moveit_setup_controllers.dir/src/controllers.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:161: CMakeFiles/moveit_setup_controllers.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

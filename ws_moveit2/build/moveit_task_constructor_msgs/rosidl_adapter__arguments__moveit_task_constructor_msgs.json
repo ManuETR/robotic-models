@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/manuel/robotic-models/ws_moveit2/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

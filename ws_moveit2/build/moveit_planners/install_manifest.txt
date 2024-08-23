@@ -1,0 +1,15 @@
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/ament_index/resource_index/package_run_dependencies/moveit_planners
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/ament_index/resource_index/parent_prefix_path/moveit_planners
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.sh
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.dsv
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/environment/path.sh
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/environment/path.dsv
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/local_setup.bash
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/local_setup.sh
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/local_setup.zsh
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/local_setup.dsv
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/package.dsv
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/ament_index/resource_index/packages/moveit_planners
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig.cmake
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig-version.cmake
+/home/manuel/robotic-models/ws_moveit2/install/moveit_planners/share/moveit_planners/package.xml

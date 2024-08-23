@@ -1,0 +1,6 @@
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/srdfdom.dir/build.make:76: CMakeFiles/srdfdom.dir/src/model.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/srdfdom.dir/build.make:90: CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:296: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:162: CMakeFiles/srdfdom.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

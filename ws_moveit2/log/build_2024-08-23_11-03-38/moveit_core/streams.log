@@ -1,0 +1,612 @@
+[0.015s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_core
+[0.065s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting CXX compiler ABI info
+[0.145s] -- Detecting CXX compiler ABI info - done
+[0.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.154s] -- Detecting CXX compile features
+[0.154s] -- Detecting CXX compile features - done
+[0.156s] -- Found moveit_common: 2.5.5 (/home/manuel/robotic-models/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.159s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.468s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.472s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.472s] -- BACKWARD_HAS_UNWIND=1
+[0.472s] -- BACKWARD_HAS_BACKTRACE=0
+[0.472s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.472s] -- BACKWARD_HAS_DW=1
+[0.472s] -- BACKWARD_HAS_BFD=0
+[0.472s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.475s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.495s] -- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so (Required is at least version "2.87") 
+[0.498s] -- Found common_interfaces: 4.2.3 (/opt/ros/humble/share/common_interfaces/cmake)
+[0.502s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[0.513s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.517s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.527s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.532s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.588s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.807s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.841s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Looking for C++ include pthread.h
+[1.015s] -- Looking for C++ include pthread.h - found
+[1.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.131s] -- Found Threads: TRUE  
+[1.324s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.382s] -- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)
+[1.396s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.714s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.069s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.082s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.089s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.707s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.735s] -- Found srdfdom: 2.0.4 (/home/manuel/robotic-models/ws_moveit2/install/srdfdom/share/srdfdom/cmake)
+[2.746s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.007s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.017s] -- Found tf2_kdl: 0.25.6 (/opt/ros/humble/share/tf2_kdl/cmake)
+[3.073s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.074s] --  *** Building MoveIt 2.5.5-Alpha ***
+[3.080s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.157s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.157s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.242s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.243s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.327s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.332s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.334s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.366s] -- The C compiler identification is GNU 11.4.0
+[3.371s] -- Detecting C compiler ABI info
+[3.445s] -- Detecting C compiler ABI info - done
+[3.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.450s] -- Detecting C compile features
+[3.451s] -- Detecting C compile features - done
+[3.461s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.467s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.471s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.471s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.481s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.481s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.503s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.503s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.519s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.519s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.520s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.536s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.537s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.549s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.549s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.558s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.559s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.570s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.581s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.592s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.593s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.611s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.622s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.632s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.638s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.670s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.671s] -- Configured cppcheck include dirs: /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/exceptions/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/collision_detection/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/collision_detection_fcl/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/collision_detection_bullet/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/constraint_samplers/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/controller_manager/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/distance_field/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/collision_distance_field/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/dynamics_solver/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/kinematics_base/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/kinematics_metrics/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/robot_model/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/transforms/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/robot_state/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/robot_trajectory/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/kinematic_constraints/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/macros/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/online_signal_smoothing/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/planning_interface/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/planning_request_adapter/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/planning_scene/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/sensor_manager/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/trajectory_processing/include;/home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/utils/include
+[3.671s] -- Configured cppcheck exclude dirs and/or files: 
+[3.674s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.676s] -- Added test 'xmllint' to check XML markup files
+[3.679s] -- Configuring done
+[4.358s] -- Generating done
+[4.366s] -- Build files have been written to: /home/manuel/robotic-models/ws_moveit2/build/moveit_core
+[4.414s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_core
+[4.415s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_core -- -j16 -l16
+[4.464s] [  0%] [32mBuilding CXX object kinematics_base/CMakeFiles/moveit_kinematics_base.dir/src/kinematics_base.cpp.o[0m
+[4.464s] [  0%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.464s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.465s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.465s] [  2%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o[0m
+[4.466s] [  3%] [32mBuilding CXX object transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o[0m
+[4.466s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.466s] [  3%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o[0m
+[4.466s] [  4%] [32mBuilding CXX object exceptions/CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o[0m
+[4.466s] [  4%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o[0m
+[4.467s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.467s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/manuel/robotic-models/ws_moveit2/build/moveit_core/online_signal_smoothing/moveit_butterworth_parameters/include//moveit_butterworth_parameters.hpp /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_core/online_signal_smoothing/src/butterworth_parameters.yaml `[0m
+[4.467s] [  6%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o[0m
+[4.467s] [  6%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o[0m
+[4.468s] [  6%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o[0m
+[4.471s] [  7%] [32mBuilding CXX object version/CMakeFiles/moveit_version.dir/version.cpp.o[0m
+[4.511s] [  8%] [32m[1mLinking CXX executable moveit_version[0m
+[4.630s] [  8%] Built target moveit_version
+[4.643s] [  9%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/rclcpp_utils.cpp.o[0m
+[4.849s] [  9%] Built target moveit_butterworth_parameters
+[5.461s] [ 10%] [32m[1mLinking CXX shared library libmoveit_exceptions.so[0m
+[5.659s] [ 10%] Built target moveit_exceptions
+[5.794s] [ 10%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.879s] [ 10%] Built target gtest_main
+[5.925s] [ 10%] [32m[1mLinking CXX shared library libmoveit_utils.so[0m
+[6.216s] [ 11%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.290s] [ 11%] Built target gmock_main
+[6.578s] [ 11%] Built target moveit_utils
+[8.318s] [ 12%] [32m[1mLinking CXX shared library libmoveit_smoothing_base.so[0m
+[8.450s] [ 12%] Built target moveit_smoothing_base
+[10.320s] [ 13%] [32m[1mLinking CXX shared library libmoveit_kinematics_base.so[0m
+[10.457s] [ 13%] Built target moveit_kinematics_base
+[10.479s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model.cpp.o[0m
+[10.479s] [ 19%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/link_model.cpp.o[0m
+[10.479s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/revolute_joint_model.cpp.o[0m
+[10.480s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/fixed_joint_model.cpp.o[0m
+[10.480s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/planar_joint_model.cpp.o[0m
+[10.480s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/floating_joint_model.cpp.o[0m
+[10.481s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model_group.cpp.o[0m
+[10.481s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o[0m
+[10.481s] [ 19%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/prismatic_joint_model.cpp.o[0m
+[10.490s] [ 19%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/robot_model.cpp.o[0m
+[13.071s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.162s] [ 20%] Built target gtest
+[13.624s] [ 21%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.661s] [ 22%] [32m[1mLinking CXX shared library libmoveit_transforms.so[0m
+[13.717s] [ 22%] Built target gmock
+[13.748s] [ 22%] [32m[1mLinking CXX shared library libmoveit_distance_field.so[0m
+[13.877s] [ 22%] Built target moveit_transforms
+[13.900s] [ 22%] [32mBuilding CXX object transforms/CMakeFiles/test_transforms.dir/test/test_transforms.cpp.o[0m
+[13.966s] [ 22%] Built target moveit_distance_field
+[13.987s] [ 23%] [32mBuilding CXX object distance_field/CMakeFiles/test_distance_field.dir/test/test_distance_field.cpp.o[0m
+[13.987s] [ 23%] [32mBuilding CXX object distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o[0m
+[17.249s] [ 24%] [32m[1mLinking CXX executable test_transforms[0m
+[17.407s] [ 24%] Built target test_transforms
+[18.794s] [ 24%] [32m[1mLinking CXX executable test_voxel_grid[0m
+[18.924s] [ 24%] Built target test_voxel_grid
+[20.997s] [ 25%] [32m[1mLinking CXX shared library libmoveit_robot_model.so[0m
+[21.124s] [ 25%] Built target moveit_robot_model
+[21.139s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/conversions.cpp.o[0m
+[21.139s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/attached_body.cpp.o[0m
+[21.139s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/cartesian_interpolator.cpp.o[0m
+[21.139s] [ 28%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_butterworth_filter.dir/src/butterworth_filter.cpp.o[0m
+[21.139s] [ 28%] [32mBuilding CXX object utils/CMakeFiles/moveit_test_utils.dir/src/robot_model_test_utils.cpp.o[0m
+[21.139s] [ 29%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/robot_state.cpp.o[0m
+[23.667s] [ 30%] [32m[1mLinking CXX executable test_distance_field[0m
+[23.968s] [ 30%] Built target test_distance_field
+[28.065s] [ 30%] [32m[1mLinking CXX shared library libmoveit_butterworth_filter.so[0m
+[28.199s] [ 30%] Built target moveit_butterworth_filter
+[28.217s] [ 30%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/test_butterworth_filter.dir/test/test_butterworth_filter.cpp.o[0m
+[29.951s] [ 30%] [32m[1mLinking CXX shared library libmoveit_test_utils.so[0m
+[30.100s] [ 30%] Built target moveit_test_utils
+[30.121s] [ 31%] [32mBuilding CXX object robot_model/CMakeFiles/test_robot_model.dir/test/test.cpp.o[0m
+[34.497s] [ 32%] [32m[1mLinking CXX executable test_butterworth_filter[0m
+[34.632s] [ 32%] Built target test_butterworth_filter
+[35.396s] [ 32%] [32m[1mLinking CXX executable test_robot_model[0m
+[35.599s] [ 32%] Built target test_robot_model
+[42.908s] [ 33%] [32m[1mLinking CXX shared library libmoveit_robot_state.so[0m
+[43.036s] [ 33%] Built target moveit_robot_state
+[43.055s] [ 35%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o[0m
+[43.055s] [ 35%] [32mBuilding CXX object kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o[0m
+[43.055s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state.dir/test/robot_state_test.cpp.o[0m
+[43.055s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_aabb.dir/test/test_aabb.cpp.o[0m
+[43.055s] [ 36%] [32mBuilding CXX object dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o[0m
+[43.057s] [ 37%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_tools.cpp.o[0m
+[43.057s] [ 37%] [32mBuilding CXX object robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/src/robot_trajectory.cpp.o[0m
+[43.057s] [ 37%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o[0m
+[43.057s] [ 37%] [32mBuilding CXX object robot_state/CMakeFiles/test_cartesian_interpolator.dir/test/test_cartesian_interpolator.cpp.o[0m
+[43.057s] [ 37%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_complex.dir/test/test_kinematic_complex.cpp.o[0m
+[43.057s] [ 38%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_matrix.cpp.o[0m
+[43.057s] [ 38%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_octomap_filter.cpp.o[0m
+[43.058s] [ 39%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o[0m
+[43.058s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_env.cpp.o[0m
+[43.058s] [ 40%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_benchmark.dir/test/robot_state_benchmark.cpp.o[0m
+[43.059s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world_diff.cpp.o[0m
+[46.086s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o[0m
+[54.669s] [ 41%] [32m[1mLinking CXX executable test_robot_state_benchmark[0m
+[54.926s] [ 42%] [32m[1mLinking CXX shared library libmoveit_dynamics_solver.so[0m
+[54.964s] [ 43%] [32m[1mLinking CXX executable test_cartesian_interpolator[0m
+[55.081s] [ 43%] Built target test_robot_state_benchmark
+[55.158s] [ 43%] Built target moveit_dynamics_solver
+[55.308s] [ 43%] Built target test_cartesian_interpolator
+[56.283s] [ 44%] [32m[1mLinking CXX executable test_aabb[0m
+[56.596s] [ 44%] Built target test_aabb
+[56.709s] [ 45%] [32m[1mLinking CXX shared library libmoveit_robot_trajectory.so[0m
+[56.762s] [ 46%] [32m[1mLinking CXX executable test_robot_state_complex[0m
+[56.872s] [ 46%] Built target moveit_robot_trajectory
+[56.889s] [ 48%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/time_optimal_trajectory_generation.cpp.o[0m
+[56.889s] [ 48%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o[0m
+[56.889s] [ 50%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/ruckig_traj_smoothing.cpp.o[0m
+[56.889s] [ 50%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o[0m
+[56.889s] [ 50%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/trajectory_tools.cpp.o[0m
+[56.889s] [ 51%] [32mBuilding CXX object robot_trajectory/CMakeFiles/test_robot_trajectory.dir/test/test_robot_trajectory.cpp.o[0m
+[56.889s] [ 50%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o[0m
+[56.889s] [ 51%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o[0m
+[57.151s] [ 51%] Built target test_robot_state_complex
+[59.392s] [ 52%] [32m[1mLinking CXX executable test_robot_state[0m
+[59.788s] [ 52%] Built target test_robot_state
+[64.273s] [ 53%] [32m[1mLinking CXX shared library libmoveit_collision_detection.so[0m
+[64.522s] [ 53%] Built target moveit_collision_detection
+[64.546s] [ 54%] [32mBuilding CXX object collision_detection/CMakeFiles/test_all_valid.dir/test/test_all_valid.cpp.o[0m
+[64.546s] [ 54%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world.dir/test/test_world.cpp.o[0m
+[64.547s] [ 54%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o[0m
+[64.548s] [ 54%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_discrete_bvh_manager.cpp.o[0m
+[64.549s] [ 55%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o[0m
+[64.550s] [ 56%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o[0m
+[64.553s] [ 57%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world_diff.dir/test/test_world_diff.cpp.o[0m
+[64.553s] [ 58%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o[0m
+[66.174s] [ 58%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/collision_env_bullet.cpp.o[0m
+[66.622s] [ 59%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o[0m
+[67.285s] [ 60%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/contact_checker_common.cpp.o[0m
+[69.052s] [ 60%] [32m[1mLinking CXX executable test_robot_trajectory[0m
+[69.233s] [ 60%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/ros_bullet_utils.cpp.o[0m
+[69.619s] [ 60%] Built target test_robot_trajectory
+[70.645s] [ 61%] [32m[1mLinking CXX shared library libmoveit_trajectory_processing.so[0m
+[70.935s] [ 61%] Built target moveit_trajectory_processing
+[70.973s] [ 61%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_parameterization.dir/test/test_time_parameterization.cpp.o[0m
+[70.984s] [ 62%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_optimal_trajectory_generation.dir/test/test_time_optimal_trajectory_generation.cpp.o[0m
+[71.272s] [ 63%] [32m[1mLinking CXX shared library libmoveit_planning_interface.so[0m
+[71.661s] [ 63%] Built target moveit_planning_interface
+[71.703s] [ 64%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_ruckig_traj_smoothing.dir/test/test_ruckig_traj_smoothing.cpp.o[0m
+[75.332s] [ 64%] [32m[1mLinking CXX executable test_world[0m
+[75.787s] [ 64%] Built target test_world
+[76.042s] [ 65%] [32m[1mLinking CXX executable test_world_diff[0m
+[76.432s] [ 65%] Built target test_world_diff
+[76.924s] [ 66%] [32m[1mLinking CXX shared library libmoveit_kinematics_metrics.so[0m
+[77.181s] [ 66%] Built target moveit_kinematics_metrics
+[78.071s] [ 67%] [32m[1mLinking CXX shared library libmoveit_collision_detection_bullet.so[0m
+[78.185s] [ 68%] [32m[1mLinking CXX executable test_all_valid[0m
+[78.280s] [ 68%] Built target moveit_collision_detection_bullet
+[78.302s] [ 70%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection.dir/test/test_bullet_collision_detection_pr2.cpp.o[0m
+[78.302s] [ 70%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o[0m
+[78.302s] [ 71%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o[0m
+[78.503s] [ 71%] Built target test_all_valid
+[80.040s] [ 72%] [32m[1mLinking CXX shared library libmoveit_collision_detection_fcl.so[0m
+[80.296s] [ 72%] Built target moveit_collision_detection_fcl
+[80.315s] [ 76%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/utils.cpp.o[0m
+[80.315s] [ 76%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_env.dir/test/test_fcl_env.cpp.o[0m
+[80.315s] [ 76%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[80.315s] [ 76%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o[0m
+[80.315s] [ 76%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection.dir/test/test_fcl_collision_detection_pr2.cpp.o[0m
+[82.401s] [ 77%] [32m[1mLinking CXX executable test_time_parameterization[0m
+[82.825s] [ 77%] Built target test_time_parameterization
+[84.228s] [ 77%] [32m[1mLinking CXX executable test_ruckig_traj_smoothing[0m
+[84.653s] [ 77%] Built target test_ruckig_traj_smoothing
+[85.145s] [ 78%] [32m[1mLinking CXX executable test_time_optimal_trajectory_generation[0m
+[85.549s] [ 78%] Built target test_time_optimal_trajectory_generation
+[88.962s] [ 78%] [32m[1mLinking CXX executable test_bullet_collision_detection_panda[0m
+[89.348s] [ 78%] Built target test_bullet_collision_detection_panda
+[90.740s] [ 78%] [32m[1mLinking CXX executable test_bullet_collision_detection[0m
+[91.130s] [ 78%] Built target test_bullet_collision_detection
+[91.720s] [ 79%] [32m[1mLinking CXX executable test_fcl_collision_env[0m
+[91.968s] [ 80%] [32m[1mLinking CXX executable test_bullet_continuous_collision_checking[0m
+[92.069s] [ 80%] Built target test_fcl_collision_env
+[92.315s] [ 80%] Built target test_bullet_continuous_collision_checking
+[92.370s] [ 80%] [32m[1mLinking CXX executable test_fcl_collision_detection_panda[0m
+[92.676s] [ 80%] Built target test_fcl_collision_detection_panda
+[93.161s] [ 80%] [32m[1mLinking CXX executable test_fcl_collision_detection[0m
+[93.458s] [ 80%] Built target test_fcl_collision_detection
+[96.936s] [ 81%] [32m[1mLinking CXX shared library libmoveit_kinematic_constraints.so[0m
+[97.062s] [ 81%] Built target moveit_kinematic_constraints
+[97.077s] [ 82%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/test/test_orientation_constraints.cpp.o[0m
+[97.077s] [ 82%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_constraints.dir/test/test_constraints.cpp.o[0m
+[97.077s] [ 82%] [32mBuilding CXX object planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o[0m
+[106.592s] [ 83%] [32m[1mLinking CXX executable test_orientation_constraints[0m
+[106.850s] [ 83%] Built target test_orientation_constraints
+[107.717s] [ 84%] [32m[1mLinking CXX executable test_constraints[0m
+[107.967s] [ 84%] Built target test_constraints
+[113.058s] [ 84%] [32m[1mLinking CXX shared library libmoveit_planning_scene.so[0m
+[113.216s] [ 84%] Built target moveit_planning_scene
+[113.231s] [ 88%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler_tools.cpp.o[0m
+[113.231s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_common_distance_field.cpp.o[0m
+[113.231s] [ 88%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/collision_detector_bullet_plugin.dir/src/collision_detector_bullet_plugin_loader.cpp.o[0m
+[113.231s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_distance_field_types.cpp.o[0m
+[113.231s] [ 88%] [32mBuilding CXX object planning_request_adapter/CMakeFiles/moveit_planning_request_adapter.dir/src/planning_request_adapter.cpp.o[0m
+[113.231s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_env_distance_field.cpp.o[0m
+[113.232s] [ 88%] [32mBuilding CXX object planning_scene/CMakeFiles/test_planning_scene.dir/test/test_planning_scene.cpp.o[0m
+[113.232s] [ 88%] [32mBuilding CXX object planning_scene/CMakeFiles/test_collision_objects.dir/test/test_collision_objects.cpp.o[0m
+[113.232s] [ 88%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler_manager.cpp.o[0m
+[113.232s] [ 89%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/default_constraint_samplers.cpp.o[0m
+[113.232s] [ 89%] [32mBuilding CXX object planning_scene/CMakeFiles/test_multi_threaded.dir/test/test_multi_threaded.cpp.o[0m
+[113.232s] [ 89%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/union_constraint_sampler.cpp.o[0m
+[113.232s] [ 89%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler.cpp.o[0m
+[113.232s] [ 90%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_env_hybrid.cpp.o[0m
+[113.232s] [ 90%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/collision_detector_fcl_plugin.dir/src/collision_detector_fcl_plugin_loader.cpp.o[0m
+[127.150s] [ 91%] [32m[1mLinking CXX shared library libmoveit_planning_request_adapter.so[0m
+[127.295s] [ 92%] [32m[1mLinking CXX shared library libcollision_detector_bullet_plugin.so[0m
+[127.394s] [ 92%] Built target moveit_planning_request_adapter
+[127.523s] [ 92%] Built target collision_detector_bullet_plugin
+[127.979s] [ 93%] [32m[1mLinking CXX shared library libcollision_detector_fcl_plugin.so[0m
+[128.151s] [ 93%] Built target collision_detector_fcl_plugin
+[128.472s] [ 94%] [32m[1mLinking CXX executable test_multi_threaded[0m
+[128.849s] [ 94%] Built target test_multi_threaded
+[129.825s] [ 95%] [32m[1mLinking CXX shared library libmoveit_constraint_samplers.so[0m
+[129.971s] [ 95%] Built target moveit_constraint_samplers
+[129.989s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/pr2_arm_kinematics_plugin.cpp.o[0m
+[129.989s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/test_constraint_samplers.cpp.o[0m
+[129.989s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/pr2_arm_ik.cpp.o[0m
+[130.369s] [ 97%] [32m[1mLinking CXX executable test_collision_objects[0m
+[130.733s] [ 97%] Built target test_collision_objects
+[134.141s] [ 97%] [32m[1mLinking CXX executable test_planning_scene[0m
+[134.475s] [ 97%] Built target test_planning_scene
+[135.157s] [ 98%] [32m[1mLinking CXX shared library libmoveit_collision_distance_field.so[0m
+[135.327s] [ 98%] Built target moveit_collision_distance_field
+[135.347s] [ 99%] [32mBuilding CXX object collision_distance_field/CMakeFiles/test_collision_distance_field.dir/test/test_collision_distance_field.cpp.o[0m
+[143.517s] [100%] [32m[1mLinking CXX executable test_constraint_samplers[0m
+[143.815s] [100%] Built target test_constraint_samplers
+[145.486s] [100%] [32m[1mLinking CXX executable test_collision_distance_field[0m
+[145.746s] [100%] Built target test_collision_distance_field
+[145.758s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_core -- -j16 -l16
+[145.805s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_core
+[145.811s] -- Install configuration: "Release"
+[145.812s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/version.h
+[145.812s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.812s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.812s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field
+[145.812s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_distance_field_types.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_distance_field.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_common_distance_field.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_hybrid.h
+[145.813s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_collision_distance_field_export.h
+[145.814s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.814s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler.h
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_tools.h
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/union_constraint_sampler.h
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_allocator.h
+[145.814s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/default_constraint_samplers.h
+[145.815s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.815s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.815s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/controller_manager
+[145.815s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h
+[145.815s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.815s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.815s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/distance_field
+[145.815s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/distance_field/propagation_distance_field.h
+[145.816s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/distance_field/voxel_grid.h
+[145.816s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/distance_field/find_internal_points.h
+[145.816s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/distance_field/distance_field.h
+[145.816s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.816s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.816s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver
+[145.816s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver/dynamics_solver.h
+[145.816s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.817s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.817s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/exceptions
+[145.817s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h
+[145.817s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.817s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.817s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematics_base
+[145.817s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
+[145.817s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_kinematics_base_export.h
+[145.818s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.818s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.818s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints
+[145.818s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/utils.h
+[145.818s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h
+[145.818s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.818s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.818s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics/kinematics_metrics.h
+[145.819s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.819s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/macros
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/macros/console_colors.h
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/macros/deprecation.h
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
+[145.819s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters/moveit_butterworth_parameters.hpp
+[145.820s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.820s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/smoothing_base_class.h
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/butterworth_filter.h
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_smoothing_base_export.h
+[145.820s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_butterworth_filter_export.h
+[145.821s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.821s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.821s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_interface
+[145.821s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_request.h
+[145.821s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_interface.h
+[145.821s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_response.h
+[145.821s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.821s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h
+[145.822s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.822s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_scene
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/planning_scene/planning_scene.h
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h
+[145.822s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.822s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.822s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/floating_joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/planar_joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/aabb.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h
+[145.823s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_model/link_model.h
+[145.824s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.824s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.824s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_state
+[145.824s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h
+[145.824s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_state/attached_body.h
+[145.824s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_state/cartesian_interpolator.h
+[145.824s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_state/conversions.h
+[145.824s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.825s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.825s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory
+[145.825s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h
+[145.825s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.825s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.825s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/sensor_manager
+[145.825s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/sensor_manager/sensor_manager.h
+[145.825s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.825s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.825s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_time_parameterization.h
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_parameterization.h
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_spline_parameterization.h
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/trajectory_tools.h
+[145.826s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.826s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/transforms
+[145.826s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/transforms/transforms.h
+[145.827s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.827s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils/moveit_error_code.h
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils/lexical_casts.h
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils/message_checks.h
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils/rclcpp_utils.h
+[145.827s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/utils/robot_model_test_utils.h
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin/moveit_version
+[145.828s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.828s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/occupancy_map.h
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world_diff.h
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin.h
+[145.828s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_common.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_panda.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin_cache.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[145.829s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_tools.h
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_pr2.h
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_octomap_filter.h
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_collision_detection_export.h
+[145.830s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.830s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration
+[145.830s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_env_bullet.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[145.831s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_collision_detection_bullet_export.h
+[145.832s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include
+[145.832s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_env_fcl.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_common.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/fcl_compat.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/include/moveit_collision_detection_fcl_export.h
+[145.832s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+[145.833s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5" to ""
+[145.833s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[145.833s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+[145.833s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5" to ""
+[145.833s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[145.833s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+[145.834s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5" to ""
+[145.834s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[145.834s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+[145.835s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5" to ""
+[145.835s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so
+[145.835s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+[145.836s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5" to ""
+[145.836s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[145.836s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+[145.836s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5" to ""
+[145.836s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[145.836s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+[145.837s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5" to ""
+[145.837s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[145.837s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+[145.837s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5" to ""
+[145.838s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[145.838s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+[145.838s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5" to ""
+[145.838s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so
+[145.838s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+[145.838s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5" to ""
+[145.839s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so
+[145.839s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_base.so
+[145.839s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_base.so" to ""
+[145.839s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+[145.839s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5" to ""
+[145.839s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[145.840s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+[145.840s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5" to ""
+[145.840s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[145.840s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+[145.840s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5" to ""
+[145.841s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so
+[145.841s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+[145.841s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5" to ""
+[145.842s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so
+[145.842s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+[145.842s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5" to ""
+[145.842s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so
+[145.842s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+[145.843s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5" to ""
+[145.843s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so
+[145.843s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+[145.844s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5" to ""
+[145.844s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so
+[145.844s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+[145.844s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5" to ""
+[145.844s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[145.844s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+[145.845s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5" to ""
+[145.845s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so
+[145.845s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+[145.845s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5" to ""
+[145.845s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so
+[145.846s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+[145.846s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5" to ""
+[145.846s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[145.846s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+[145.846s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5" to ""
+[145.846s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so
+[145.847s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+[145.847s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5" to ""
+[145.847s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so
+[145.847s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.sh
+[145.847s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[145.847s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[145.848s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[145.848s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[145.848s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[145.848s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.sh
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.dsv
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.bash
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.sh
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.zsh
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.dsv
+[145.849s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/package.dsv
+[145.850s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[145.850s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[145.850s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport.cmake
+[145.850s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport-release.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[145.851s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/package.xml
+[145.854s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_pr2_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_resources_panda_description:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_core

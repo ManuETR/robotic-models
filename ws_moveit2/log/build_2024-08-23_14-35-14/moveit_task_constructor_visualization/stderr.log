@@ -1,0 +1,14 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:175: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/meta_task_list_model.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:245: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_panel.cpp.o] Error 1
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:203: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/remote_task_model.cpp.o] Interrupt
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:105: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/motion_planning_tasks_rviz_plugin_autogen/mocs_compilation.cpp.o] Interrupt
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:189: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/plugin_init.cpp.o] Interrupt
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:231: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_list_model.cpp.o] Interrupt
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:217: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_display.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:450: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

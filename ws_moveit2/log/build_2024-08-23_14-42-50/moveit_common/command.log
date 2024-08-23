@@ -1,0 +1,4 @@
+Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_common -- -j16 -l16
+Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_common -- -j16 -l16
+Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_common
+Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_common

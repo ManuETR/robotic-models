@@ -1,0 +1,125 @@
+[0.019s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_ros/benchmarks -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.257s] -- Found moveit_common: 2.5.5 (/home/manuel/robotic-models/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.260s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.548s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.553s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.554s] -- BACKWARD_HAS_UNWIND=1
+[0.554s] -- BACKWARD_HAS_BACKTRACE=0
+[0.554s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.554s] -- BACKWARD_HAS_DW=1
+[0.554s] -- BACKWARD_HAS_BFD=0
+[0.554s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.560s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.638s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.646s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.819s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.948s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.975s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.045s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.139s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.222s] -- Found Threads: TRUE  
+[1.358s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.728s] -- Found moveit_core: 2.5.5 (/home/manuel/robotic-models/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[1.761s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.792s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.811s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.815s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.864s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.943s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.238s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.882s] -- Found moveit_ros_planning: 2.5.5 (/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.262s] -- Found moveit_ros_warehouse: 2.5.5 (/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+[3.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.459s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem 
+[3.474s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.493s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.494s] -- Configured cppcheck include dirs: /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_ros/benchmarks/include
+[3.494s] -- Configured cppcheck exclude dirs and/or files: 
+[3.495s] -- Added test 'lint_cmake' to check CMake code style
+[3.495s] -- Added test 'xmllint' to check XML markup files
+[3.497s] -- Configuring done
+[3.560s] -- Generating done
+[3.562s] -- Build files have been written to: /home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks
+[3.578s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/robotic-models/ws_moveit2/src/moveit2/moveit_ros/benchmarks -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks
+[3.581s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks -- -j16 -l16
+[3.620s] [ 28%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[3.621s] [ 28%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o[0m
+[25.885s] [ 42%] [32m[1mLinking CXX shared library libmoveit_ros_benchmarks.so[0m
+[26.110s] [ 42%] Built target moveit_ros_benchmarks
+[26.126s] [ 71%] [32mBuilding CXX object CMakeFiles/moveit_run_benchmark.dir/src/RunBenchmark.cpp.o[0m
+[26.126s] [ 71%] [32mBuilding CXX object CMakeFiles/moveit_combine_predefined_poses_benchmark.dir/src/simple_benchmarks/CombinePredefinedPosesBenchmark.cpp.o[0m
+[36.364s] [ 85%] [32m[1mLinking CXX executable moveit_run_benchmark[0m
+[36.628s] [ 85%] Built target moveit_run_benchmark
+[37.103s] [100%] [32m[1mLinking CXX executable moveit_combine_predefined_poses_benchmark[0m
+[37.385s] [100%] Built target moveit_combine_predefined_poses_benchmark
+[37.394s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks -- -j16 -l16
+[37.417s] Invoking command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks
+[37.422s] -- Install configuration: "Release"
+[37.422s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.5
+[37.424s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.5" to ""
+[37.424s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so
+[37.424s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.sh
+[37.424s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.dsv
+[37.425s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark
+[37.425s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark" to ""
+[37.425s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark
+[37.425s] -- Set runtime path of "/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark" to ""
+[37.425s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/include
+[37.425s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/include/moveit
+[37.426s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/include/moveit/benchmarks
+[37.426s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h
+[37.426s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkOptions.h
+[37.426s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_benchmark_statistics.py
+[37.427s] -- Up-to-date: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks
+[37.427s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.launch
+[37.427s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo2.yaml
+[37.427s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda.launch.py
+[37.428s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.launch.py
+[37.428s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_fanuc.launch
+[37.428s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners_obstacles.launch
+[37.429s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.yaml
+[37.429s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo1.yaml
+[37.429s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.yaml
+[37.430s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_obstacles.yaml
+[37.430s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/package_run_dependencies/moveit_ros_benchmarks
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/parent_prefix_path/moveit_ros_benchmarks
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.sh
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.dsv
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.sh
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.dsv
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.bash
+[37.431s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.sh
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.zsh
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.dsv
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.dsv
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/packages/moveit_ros_benchmarks
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/export_moveit_ros_benchmarksExport.cmake
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/export_moveit_ros_benchmarksExport-release.cmake
+[37.432s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ConfigExtras.cmake
+[37.433s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_targets-extras.cmake
+[37.433s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.433s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig.cmake
+[37.433s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig-version.cmake
+[37.433s] -- Installing: /home/manuel/robotic-models/ws_moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.xml
+[37.435s] Invoked command in '/home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/manuel/robotic-models/ws_moveit2/install/moveit_core:/home/manuel/robotic-models/ws_moveit2/install/srdfdom:/home/manuel/robotic-models/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_warehouse/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_planning/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/manuel/robotic-models/ws_moveit2/install/moveit_core/lib:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manuel/robotic-models/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/manuel/robotic-models/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/manuel/robotic-models/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/robotic-models/ws_moveit2/build/moveit_ros_benchmarks
